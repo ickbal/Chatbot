@@ -1,0 +1,1 @@
+{{ Buffer.from($json["content"] || "", "base64").toString("utf8") }}
